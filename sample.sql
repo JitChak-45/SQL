@@ -25,7 +25,7 @@ INSERT INTO student VALUES(108,"Harry",85,"B","Rachi");
 
 TRUNCATE TABLE student;
 
-SET SQL_SAFE_UPDATES=0;
+SET SQL_SAFE_UPDATES=1;
 
 UPDATE student
 SET grade="O"
